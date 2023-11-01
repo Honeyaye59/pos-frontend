@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+    --main-color: #fe6601;
+    --secondary-color: #e9e9ea;
+    --icon-color: #fff;
+    --sidenav-bg-color: #263238;
+    --order-bg-color: #263238;
+    --menu-bg-color: aqua;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: NotoSans-Regular, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: var(--secondary-color);
+    min-height: 100vh;
+    height: 100%;
+  }
+
+  html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
