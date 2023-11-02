@@ -10,21 +10,28 @@
     justify-content: space-between;
     width: 100px;
 }
-.add-new-btn {
-    cursor: pointer;
-    
-}
-
 .add-new-btn a{
     display: inline-block;
     padding: 10px 30px;
+    background: darkgray;
     border-radius: 10px;
     text-decoration: none;
     background-color: var(--main-color);
     color: #000;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding-right: 10px;
     
-}
-.add-new-btn a:hover {
-    color: var(--main-color);
-    background-color: #000;
-}
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    background-color: #fff;
+  }

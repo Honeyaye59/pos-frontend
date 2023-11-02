@@ -7,7 +7,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     --main-color: #fe6601;
     --secondary-color: #e9e9ea;
     --icon-color: #fff;
-    --sidenav-bg-color: #263238;
+    --sidebar-bg-color: #263238;
     --order-bg-color: #263238;
     --menu-bg-color: aqua;
   }
